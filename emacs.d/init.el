@@ -76,3 +76,17 @@
             (goto-char (point-max))
             (local-set-key (kbd "q")
                            (lambda () (interactive) (quit-restore-window)))))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (feature-mode solarized-theme seeing-is-believing rvm ruby-test-mode ruby-electric inf-ruby helm-projectile helm-ag better-defaults))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
